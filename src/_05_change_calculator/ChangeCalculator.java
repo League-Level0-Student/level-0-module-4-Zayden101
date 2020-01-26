@@ -3,6 +3,8 @@ package _05_change_calculator;
 //    Level 0
 
 
+import java.awt.geom.Arc2D.Double;
+
 import javax.swing.JOptionPane;
 
 /*
@@ -13,19 +15,68 @@ import javax.swing.JOptionPane;
 public class ChangeCalculator {
 
 	public static void main(String[] args) {
-
-		// Ask the user how many nickels they have
-
 		// Convert their answer to an int using Integer.parseInt()
+		// Ask the user how many nickels they have
+String poop=JOptionPane.showInputDialog("how meany poo do you have");
+	
 
+int nicles=Integer.parseInt(poop);
 		// Ask the user how many dimes they have, and convert their answer
+String poo=JOptionPane.showInputDialog("how meany poop do you have");
 
+
+int dimes=Integer.parseInt(poop);
 		// Ask the user how many quarters they have, and convert their answer
+String poopoo=JOptionPane.showInputDialog("how meany poopoo do you have");
 
+
+int quarters=Integer.parseInt(poop);
 		// Calculate how much money the user has and save it in a double variable 
+JOptionPane.showMessageDialog(null, "caculating");
+JOptionPane.showMessageDialog(null, ".");
+JOptionPane.showMessageDialog(null, "..");
+JOptionPane.showMessageDialog(null, "...");
+JOptionPane.showMessageDialog(null, "caculating");
+JOptionPane.showMessageDialog(null, ".");
+JOptionPane.showMessageDialog(null, "..");
+JOptionPane.showMessageDialog(null, "...");
+JOptionPane.showMessageDialog(null, "caculating");
+JOptionPane.showMessageDialog(null, "finished");
+JOptionPane.showMessageDialog(null, "would you like to view your money");
+JOptionPane.showMessageDialog(null, "(user): yes");
 
-		// Tell the user how much money they have
-
+double d= nicles * .05;
+double c= dimes * .10;
+double b= quarters * .25;
+double a= d+c+b;
+// Tell the user how much money they have
+JOptionPane.showMessageDialog(null,a);
+JOptionPane.showMessageDialog(null, "you poop a lot");
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
