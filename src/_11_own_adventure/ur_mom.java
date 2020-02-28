@@ -27,12 +27,15 @@ public class ur_mom {
 				JOptionPane.showMessageDialog(null, "you go in pipe one you get flushed into a alagator");
 				JOptionPane.showMessageDialog(null, "you died of alagatorness");
 				if (tolet.equals("pipe 2")) {
-					JOptionPane.showMessageDialog(null,
+					 JOptionPane.showMessageDialog(null,
 							"you go in pipe two you get flushed into the big poop and fing the ultmate poop");
-					JOptionPane.showMessageDialog(null, "you grab to poop and aborsorbe it");
+					JOptionPane.showMessageDialog(null, "you grab to poop and aborsorbe it, die or die");
+				
+						
+					}
 				}
 			}
 		}
 
 	}
-}
+
